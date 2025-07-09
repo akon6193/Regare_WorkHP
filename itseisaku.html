@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<title>IT製作事業部｜RigareJapan</title>
+<link rel="shortcut icon" href="image/rigarelogo.png">
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/itseisaku.css" rel="stylesheet" type="text/css">
+<link href="css/menu02.css" rel="stylesheet" type="text/css">
+<link href="bg-material/bg-material2.css" rel="stylesheet" type="text/css">
+<link href="css/all.css" rel="all" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<!-- jQuery読み込みheader_menu -->
+    <script>
+        $(function () {
+            $('.drawer_button').click(function () {
+                $(this).toggleClass('active');
+                $('.drawer_bg').fadeToggle();
+                $('nav').toggleClass('open');
+            })
+            $('.drawer_bg').click(function () {
+                $(this).fadeOut();
+                $('.drawer_button').removeClass('active');
+                $('nav').removeClass('open');
+            });
+        })
+    </script>
+<!-- jQuery読み込み矢印 -->
+<script>
+    jQuery(function() {
+        var appear = false;
+        var pagetop = $('#page_top');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {  //300pxスクロールしたら
+                if (appear == false) {
+                    appear = true;
+                    pagetop.stop().animate({
+                        'right': '15px' //右から15pxの位置に
+                    }, 300); //0.3秒かけて現れる
+                }
+            } else {
+                if (appear) {
+                    appear = false;
+                    pagetop.stop().animate({
+                        'right': '-50px' //右から-50pxの位置に
+                    }, 300); //0.3秒かけて隠れる
+                }
+            }
+        });
+        pagetop.click(function () {
+            $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+            return false;
+        });
+    });
+</script>
+</head>
+
+<body>
+	<div id="stalker"></div>
+	
+	<div class="wrapper">
+	
+	<!--header-->
+	<header>
+        <div class="context">
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+		<div class="drawer_menu">
+  <!-- コピーライト消さないように！
+		Zarigani Design Office Drawer Menu
+		Copyright 2018 Zarigani Design Office
+                Customized by minimalgreen
+
+		Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+		コピーライトここまで -->
+        <div class="drawer_bg"></div>
+        <button type="button" class="drawer_button">
+            <span class="drawer_bar drawer_bar1"></span>
+            <span class="drawer_bar drawer_bar2"></span>
+            <span class="drawer_bar drawer_bar3"></span>
+            <span class="drawer_menu_text drawer_text">MENU</span>
+            <span class="drawer_close drawer_text">CLOSE</span>
+        </button>
+        
+        <div class="header-logo">
+            <a href="index.html"><img src="image/rigare_logo.png"></a>
+        </div>
+            
+        <nav class="drawer_nav_wrapper">
+            <ul class="drawer_nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                    <ul class="second-leve1">
+                        <li>
+                            <a href="about.html#メッセージ">メッセージ</a>
+                        </li>
+                        <li>
+                            <a href="about.html#会社概要">会社概要</a>
+                        </li>
+                        <li>
+                            <a href="about.html#アクセス">アクセス</a>
+                        </li>
+                        <li>
+                            <a href="news.html#お知らせ">お知らせ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="service.html">SERVICE</a>
+                    <ul class="second-leve2">
+                        <li>
+                            <a href="saiyoshien.html">採用支援事業部</a>
+                        </li>
+                        <li>
+                            <a href="itseisaku.html">IT製作事業部</a>
+                        </li>
+                        <li>
+                            <a href="webseisaku.html">WEB製作事業部</a>
+                        </li>
+                        <li>
+                            <a href="kaigaijinzai.html">海外人材支援事業部</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit.html">求人情報</a>
+                    <ul class="second-leve3">
+                        <li>
+                            <a href="">エンジニア求人</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="partner.html">パートナー募集</a>
+                </li>
+                <li>
+                    <a href="contact.html">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        
+		<div class="it-title">
+			<h2>IT製作事業部</h2>
+			<h4>IT product section</h4>
+		</div>
+	</header>
+	
+	<!--main-->
+	<main>
+		<div class="si-container">
+			<h2>システムインテグレーションサービス</h2>
+			<p>お客様にとって最適なシステム環境を実現するため、お客様の立場に立ったシステム化を行います。<br>
+			コンサルティングから設計、導入、保守運用まで一貫したサービスを提供し、<br>
+			最適なシステム構成や技術を導入しライフサイクルの長いシステム開発を実現するとともに<br>
+			お客様の業務を十分に把握し、ニーズや問題点を正確に分析し、解決策を提案いたします。</p>
+			<div class="si-image">
+				<img src="image/it_image1.png">
+			</div>
+		</div>
+		
+		<div class="contract-container">
+			<h2>受託開発</h2>
+			<p>お客様の多彩なニーズ・戦略に対応した<br>
+               強固なチーム編成を構築し、<br>
+			   企画立案からデザイン、システム設計、開発、<br>
+               運用はもちろん、プロモーションなどの<br>
+			   コンサルティングまで幅広く柔軟に対応させて頂きます。</p>
+            <div class="jyutaku-image">
+				<img src="image/jyutaku.jpg">
+			</div>
+		</div>
+		
+		<div class="itseisaku-container">
+			<h2>IT製作事業部の特徴</h2>
+			<div class="itseisaku-image1">
+				<h4>1) 若手が多い</h4><img src="image/it_image3.png">
+			</div>
+			<div class="itseisaku-image2">
+				<h4>2) 女性が活躍できる環境</h4><img src="image/it_image2.png">
+			</div>
+			<p>当社は、6割の社員が女性。かつ、そのほとんどが20代と若手が多く在籍しています。<br>
+			   業界経験が浅くはありますが、「様々なスキルを身につけて成長したい」と<br>
+			   成長意欲が高い社員が多く在籍していることが最大の強みです。</p>
+			<div class="itseisaku-image3">
+				<h4>3) 未経験者への自社教育</h4>
+				<img src="image/it_image4.png">
+			</div>
+			<p>未経験者を積極的に採用し、教育研修により一人前のエンジニアへ育成しています。<br>
+			   入社後にまずは基本なビジネスマナーや情報セキュリティの研修、<br>
+			   Excel関数の研修を行った後にVBAマクロやSQL等の全体研修を行います。<br>
+			   その後、設計・テスト・Webデザイン等、個々の描くキャリアプランに応じての<br>
+			   個別の別途研修によってより具体的にエンジニアとしてのスキルを磨いています。<br><br>
+               また資格取得を推し進め、自主的な勉強会を定期的に開催し取得者には別途手当を支給しています。<br>
+			   どんなに経験が浅くても社内での様々な挑戦を通して成長出来る環境があります。</p>
+			<div class="itseisaku-image4">
+				<h4>4) チーム制による統率</h4><img src="image/it_image5.png">
+			</div>
+			<p>メンバーに対し、いくつかのチームに分け<br>
+			   リーダー制による統率を図っています。<br><br>
+			   毎月の個別のリーダー面談により、<br>
+			   日常業務の相談やスキルアップへの指南など<br>
+			   細かなケアができることが大きな特徴です。<br><br>
+			   また、リーダー自身へも役職を与えマネジメント経験を生み、<br>
+			   今後のキャリアを大きく進めることが出来ます。</p>
+            <div class="itseisaku-image5">
+				<h4>5) 実績と領域</h4>
+                <p>当社に入社いただく方は未経験からのスタートがほとんどです。<br>
+                    業務内にてスキルを磨いていき、キャリアを積んでいただいております。<br></p>
+                <img src="image/it_image6.png">
+            </div>
+		</div>
+		
+		<div class="contact-area">
+			<h2>お問い合わせ</h2>
+			<p>お気軽にお問い合わせください。</p>
+			<div><a href="contact.html"><input type="submit" value="お問い合わせする＞" class="button-3"></a></div>
+		</div>
+	</main>
+	
+	<!--footer-->
+	<footer>
+		<ul class="menu-2">
+			<li><a href="index.html">HOME</a></li>
+			<li>
+				<a href="about.html">ABOUT</a>
+				<ul>
+					<li><a href="about.html#メッセージ">メッセージ</a></li>
+					<li><a href="about.html#会社概要">会社概要</a></li>
+					<li><a href="about.html#アクセス">アクセス</a></li>
+                    <li><a href="news.html#お知らせ">お知らせ</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="service.html">SERVICE</a>
+				<ul>
+					<li><a href="saiyoshien.html">採用支援事業部</a></li>
+					<li><a href="itseisaku.html">IT製作事業部</a></li>
+                    <li><a href="webseisaku.html">WEB製作事業部</a></li>
+					<li><a href="kaigaijinzai.html">海外人材支援事業部</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="recruit.html">求人情報</a>
+				<ul>
+					<li><a href="">エンジニア求人情報</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="partner.html">パートナー募集</a><br>
+				<a href="contact.html">お問い合わせ</a>
+			</li>
+            <li>
+				<p>SNS</p>
+				<ul>
+					<li class="sns-icon"><a href="https://www.facebook.com/rigarejapan/" target="_blank"><img src="image/facebook.png"></a></li>
+                    <li class="sns-icon"><a href="https://twitter.com/rigarejapan" target="_blank"><img src="image/twitter.png"> </a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="copy">
+			<small class="copyright">Copyright&copy;Rigarejapan All Rights Reserved. </small>
+		</div>
+		<div id="page_top"><a href="#"></a></div>
+	</footer>
+
+	</div><!--wrapper-->
+</body>
+</html>

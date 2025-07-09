@@ -1,0 +1,277 @@
+<?php
+ 
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<title>お問い合わせ｜RigareJapan</title>
+<link rel="shortcut icon" href="image/rigarelogo.png">
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+<link href="css/menu02.css" rel="stylesheet" type="text/css">
+<link href="bg-material/bg-material2.css" rel="stylesheet" type="text/css">
+<link href="css/all.css" rel="all" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<!-- jQuery読み込みheader_menu -->
+    <script>
+        $(function () {
+            $('.drawer_button').click(function () {
+                $(this).toggleClass('active');
+                $('.drawer_bg').fadeToggle();
+                $('nav').toggleClass('open');
+            })
+            $('.drawer_bg').click(function () {
+                $(this).fadeOut();
+                $('.drawer_button').removeClass('active');
+                $('nav').removeClass('open');
+            });
+        })
+    </script>
+<!-- jQuery読み込み矢印 -->
+<script>
+    jQuery(function() {
+        var appear = false;
+        var pagetop = $('#page_top');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {  //300pxスクロールしたら
+                if (appear == false) {
+                    appear = true;
+                    pagetop.stop().animate({
+                        'right': '15px' //右から15pxの位置に
+                    }, 300); //0.3秒かけて現れる
+                }
+            } else {
+                if (appear) {
+                    appear = false;
+                    pagetop.stop().animate({
+                        'right': '-50px' //右から-50pxの位置に
+                    }, 300); //0.3秒かけて隠れる
+                }
+            }
+        });
+        pagetop.click(function () {
+            $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+            return false;
+        });
+    });
+</script>
+
+</head>
+
+<body>
+	<div id="stalker"></div>
+	
+	<div class="wrapper">
+	
+	<!--header-->
+	<header>
+        <div class="context">
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+		<div class="drawer_menu">
+  <!-- コピーライト消さないように！
+		Zarigani Design Office Drawer Menu
+		Copyright 2018 Zarigani Design Office
+                Customized by minimalgreen
+
+		Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+		コピーライトここまで -->
+        <div class="drawer_bg"></div>
+        <button type="button" class="drawer_button">
+            <span class="drawer_bar drawer_bar1"></span>
+            <span class="drawer_bar drawer_bar2"></span>
+            <span class="drawer_bar drawer_bar3"></span>
+            <span class="drawer_menu_text drawer_text">MENU</span>
+            <span class="drawer_close drawer_text">CLOSE</span>
+        </button>
+        
+        <div class="header-logo">
+            <a href="index.html"><img src="image/rigare_logo.png"></a>
+        </div>
+            
+        <nav class="drawer_nav_wrapper">
+            <ul class="drawer_nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                    <ul class="second-leve1">
+                        <li>
+                            <a href="about.html#メッセージ">メッセージ</a>
+                        </li>
+                        <li>
+                            <a href="about.html#会社概要">会社概要</a>
+                        </li>
+                        <li>
+                            <a href="about.html#アクセス">アクセス</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="service.html">SERVICE</a>
+                    <ul class="second-leve2">
+                        <li>
+                            <a href="saiyoshien.html">採用支援事業部</a>
+                        </li>
+                        <li>
+                            <a href="itseisaku.html">IT製作事業部</a>
+                        </li>
+                        <li>
+                            <a href="kaigaijinzai.html">海外人材支援事業部</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit.html">求人情報</a>
+                    <ul class="second-leve3">
+                        <li>
+                            <a href="http://rigarejapan.co.jp/recruit-rigareJapan/">エンジニア求人</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="partner.html">パートナー募集</a>
+                </li>
+                <li>
+                    <a href="contact.html">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        
+		<div class="contact-information">
+			<h2>お問い合わせ</h2>
+			<h4>お電話でのお問い合わせ</h4>
+			<h3>TEL :03-6659-2895</h3>
+			<h5>10:00〜19:00 / 定休日：土日祝</h5>
+		</div>
+		<div class="contact-mail">
+			<h4>【パートナー募集用アドレス】ses@rigarejapan.co.jp</h4>
+			<h4>【その他お問合せアドレス】info@rigarejapan.co.jp</h4>
+			<p>もしくは下記お問合せフォームよりお問合せください。</p>
+		</div>
+	</header>
+	
+	<!--main-->
+	<main>
+        <form action="" method="post">
+		<div class="contact-form">
+			<table>
+				<tr>
+					<th>お問い合わせ種類<span>*</span></th>
+					<td>
+						<div class="cp_ipselect cp_sl01">
+							<select required>
+								<option value="" hidden>種類をお選びください</option>
+								<option value="1">求人情報について</option>
+								<option value="2">パートナー募集について</option>
+								<option value="3">その他</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>御社名<span>*</span></th>
+					<td><input type="text" name="company" class="inText" id="inText1" placeholder="例）株式会社リガーレジャパン"></td>
+				</tr>
+				<tr>
+					<th>ご担当者部署・役職<span>*</span></th>
+					<td><input type="text" name="position" class="inText" id="inText2" placeholder="例）営業部"></td>
+				</tr>
+				<tr>
+					<th>ご担当者名<span>*</span></th>
+					<td><input type="text" name="yourname" class="inText" id="inText3" placeholder="例）山田　太郎"></td>
+				</tr>
+				<tr>
+					<th>ご担当者名（ふりがな）<span>*</span></th>
+					<td><input type="text" name="yourname-furigana" class="inText" id="inText4" placeholder="例）やまだ　たろう"></td>
+				</tr>
+				<tr>
+					<th>メールアドレス<span>*</span></th>
+					<td><input type="email" name="mail" class="inText" id="inText5" placeholder=""></td>
+				</tr>
+				<tr>
+					<th>電話番号<span>*</span></th>
+					<td><input type="text" name="tel" class="inText" id="inText6" placeholder=""></td>
+				</tr>
+				<tr>
+					<th>お問い合わせ内容<span>*</span></th>
+					<td><textarea class="textArea" id="inText" placeholder="お問い合わせ内容"></textarea></td>
+				</tr>
+			</table>
+				<label><input type="checkbox" name="check" >上記内容で送信します。よろしければチェックを入れてください</label><br><br>
+				<input type="submit" value="確認画面へ" class="button">
+		</div>
+        </form>
+        
+		<div class="contact-area">
+			<h2>お問い合わせ</h2>
+			<p>お気軽にお問い合わせください。</p>
+			<div><a href="contact.html"><input type="submit" value="お問い合わせする＞" class="button-3"></a></div>
+		</div>
+	</main>
+	
+	<!--footer-->
+	<footer>
+		<ul class="menu-2">
+			<li><a href="index.html">HOME</a></li>
+			<li>
+				<a href="about.html">ABOUT</a>
+				<ul>
+					<li><a href="about.html#メッセージ">メッセージ</a></li>
+					<li><a href="about.html#会社概要">会社概要</a></li>
+					<li><a href="about.html#アクセス">アクセス</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="service.html">SERVICE</a>
+				<ul>
+					<li><a href="saiyoshien.html">採用支援事業部</a></li>
+					<li><a href="itseisaku.html">IT製作事業部</a></li>
+					<li><a href="kaigaijinzai.html">海外人材支援事業部</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="recruit.html">求人情報</a>
+				<ul>
+					<li><a href="http://rigarejapan.co.jp/recruit-rigareJapan/">エンジニア求人情報</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="partner.html">パートナー募集</a><br>
+				<a href="contact.html">お問い合わせ</a>
+			</li>
+		</ul>
+		<div class="copy">
+			<small class="copyright">Copyright&copy;Rigarejapan All Rights Reserved. </small>
+		</div>
+		<div id="page_top"><a href="#"></a></div>
+	</footer>
+
+	</div><!--wrapper-->
+</body>
+</html>
