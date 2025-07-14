@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*スマホ用css*/
+@media screen and (max-width:479px) {
+	.top_image {
+        
+	}
+}
