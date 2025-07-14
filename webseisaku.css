@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .web-title {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-title h4 {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-title p {
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .web-title {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-title h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-title h4 {
+        padding: 0 0 20px 0;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-title p {
+        padding: 0 0 30px 20px;
+        font-size: 22px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX1*/
+@media screen and (max-width:479px) {
+    .webimage-box1 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .webimage-box1 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX1*/
+@media screen and (min-width:480px) {
+    .webimage-box1 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .webimage-box1 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssWEB製作サービス*/
+@media screen and (max-width:479px) {
+    .web-container {
+        background-color: #E5E5E5;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-container h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-container p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssWEB製作サービス*/
+@media screen and (min-width:480px) {
+    .web-container {
+        background-color: #E5E5E5;
+        padding: 100px 100px 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-container h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-container p {
+        padding: 10px 0 30px 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssWEB各サービス*/
+@media screen and (max-width:479px) {
+    .web-service {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-service h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-service p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssWEB各サービス*/
+@media screen and (min-width:480px) {
+    .web-service {
+        padding: 100px 100px 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-service h2 {
+        color: #2F536C
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-service p {
+        padding: 10px 0 30px 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX2*/
+@media screen and (max-width:479px) {
+    .webimage-box2 {
+    }
+}
+
+@media screen and (max-width:479px) {
+    .webimage-box2 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .webimage-box2 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX2*/
+@media screen and (min-width:480px) {
+    .webimage-box2 {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .webimage-box2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .webimage-box2 img {
+        max-width: 95%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssWEBフロー*/
+@media screen and (max-width:479px) {
+    .web-flow {
+        background-color: #E5E5E5;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-flow h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-flow p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssWEBフロー*/
+@media screen and (min-width:480px) {
+    .web-flow {
+        background-color: #E5E5E5;
+        padding: 100px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-flow h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-flow p {
+        padding: 10px 0 30px 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX3*/
+@media screen and (max-width:479px) {
+    .webimage-box3 {
+    }
+}
+
+@media screen and (max-width:479px) {
+    .webimage-box3 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .webimage-box3 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX3*/
+@media screen and (min-width:480px) {
+    .webimage-box3 {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .webimage-box3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .webimage-box3 img {
+        max-width: 50%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssWEB大切にしていること*/
+@media screen and (max-width:479px) {
+    .web-important {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-important h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-important p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssWEB大切にしていること*/
+@media screen and (min-width:480px) {
+    .web-important {
+        padding: 100px 100px 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-important h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-important p {
+        padding: 10px 0 30px 20px;
+    }
+}
+/*---------------------------------------------------*/

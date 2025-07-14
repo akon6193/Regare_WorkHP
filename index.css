@@ -1,0 +1,814 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+	.top_image {
+        display: none
+	}
+}
+
+@media screen and (max-width:479px) {
+	.top_image2 {
+        padding: 200px 0 0 20px;
+        width: 100%;
+	}
+}
+
+@media screen and (max-width:479px) {
+    .top_image2 img {
+        max-width: 90%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .top_image {
+        padding: 230px 0 100px 150px;
+    }
+}
+@media screen and (min-width:480px) {
+    .top_image img {
+        max-width: 80%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .top_image2 {
+        display: none;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用_READMORE1-1ボタン*/
+@media screen and (max-width:479px) {
+    .button1-1 {
+        margin        : 50px 20px 0 20px;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .button1-1:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+        -webkit-appearance: none;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用_READMORE1-1ボタン*/
+@media screen and (min-width:480px) {
+    .button1-1 {
+        margin        : 100px 0 0 200px;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .button1-1:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用_READMORE1-2ボタン*/
+@media screen and (max-width:479px) {
+    .button1-2 {
+        margin        : 50px 20px 0 20px;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .button1-2:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+        -webkit-appearance: none;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用_READMOREボタン1-2*/
+@media screen and (min-width:480px) {
+    .button1-2 {
+        margin        : 100px 0 0 0;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .button1-2:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用_READMOREボタン1-3*/
+@media screen and (max-width:479px) {
+    .button1-3 {
+        margin        : 50px 20px 0 20px;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .button1-3:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+        -webkit-appearance: none;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用_READMOREボタン1-3*/
+@media screen and (min-width:480px) {
+    .button1-3 {
+        margin        : 100px 0 0 0;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .button1-3:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssAbout背景*/
+@media screen and (max-width:479px) {
+	.bg-colors {
+        padding: 0 0 120px 0;
+        overflow: hidden;
+	}
+}
+@media screen and (max-width:479px) {
+    .color1 {
+        background-color: #C81249;
+        padding: 50px 0;
+        width: 80%;
+        overflow: hidden;
+        float: right;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .color2 {
+        background-color: #93BB00;
+        padding: 50px 0;
+        width: 60%;
+        float: right;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .color3 {
+        background-color: #2F536C;
+        padding: 50px 0;
+        width: 100%;
+        float: right;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssAbout背景*/
+@media screen and (min-width:480px) {
+    .bg-colors {
+        overflow: hidden;
+        padding: 150px 0 120px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .color1 {
+        background-color: #C81249;
+        padding: 50px 0;
+        width: 80%;
+        overflow: hidden;
+        float: right;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .color2 {
+        background-color: #93BB00;
+        padding: 50px 0;
+        width: 60%;
+        float: right;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .color3 {
+        background-color: #2F536C;
+        padding: 50px 0;
+        margin-bottom: 50px;
+        width: 100%;
+        float: right;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssAbout-area*/
+@media screen and (max-width:479px) {
+	.about-area {
+        width: 100%;
+        float: none;
+        padding: 50px 20px;
+	}
+}
+
+@media screen and (max-width:479px) {
+	.vretical {
+        float: none;
+	}
+}
+
+@media screen and (max-width:479px) {
+    .about-text {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .about-text h3 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssAbout-area*/
+@media screen and (min-width:480px) {
+    .about-area {
+        padding: 100px 0;
+        width: 60%;
+        float: left;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .vertical {
+        float: left;
+        writing-mode: vertical-rl;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .about-text {
+        padding: 30px 200px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .about-text h3 {
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssサービスエリア*/
+@media screen and (max-width:479px) {
+	.oursrevice-area {
+        width: 100%;
+        padding: 50px 20px;
+        list-style: none;
+	}
+}
+
+@media screen and (max-width:479px) {
+    .oursrevice-area h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .oursrevice-content {
+        float: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+	.oursrevice-area li{
+        list-style: none;
+	}
+}
+
+@media screen and (max-width:479px) {
+	.oursrevice-area li img{
+        max-width: 95%;
+        height: auto;
+	}
+}
+
+@media screen and (max-width:479px) {
+	.bg-orange-top {
+        width: 60%;
+        height: 190px;
+        background-color: orange;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+	}
+}
+
+@media screen and (max-width:479px) {
+    .oursrevice-image img {
+        display: none;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssサービスエリア*/
+@media screen and (min-width:480px) {
+    .oursrevice-area {
+        padding: 150px 100px;
+        z-index: 1;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .oursrevice-area h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .oursrevice-content {
+        float: left;
+        width: 50%;
+        padding: 50px 0 0 0;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .oursrevice-area li {
+        list-style: none;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .oursrevice-area li img {
+        max-width: 60%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .oursrevice-area li img:hover {
+        box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+        background-color: #FFFFFF;
+        transition: .3s;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .bg-orange-top {
+        width: 35%;
+        height: 430px;
+        background-color: orange;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .bg-orange-btm {
+        width: 55%;
+        height: 150px;
+        background-color: orange;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .oursrevice-image img {
+        width: 50%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用css求人情報エリア*/
+@media screen and (max-width:479px) {
+    .recruit-area {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-area h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .loop_wrap {
+        display: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .loop_wrap img {
+        display: none;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .loop_wrap img:first-child {
+        display: none;
+        animation: loop 50s -25s linear infinite;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .loop_wrap img:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .bg-yellow {
+        display: none;
+        width: 100%;
+        height: 50px;
+        background-color: yellow;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用css求人情報エリア*/
+@media screen and (min-width:480px) {
+    .recruit-area {
+        padding: 150px 0 150px 100px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-area h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .loop_wrap {
+        float: right;
+        width: 55%;
+        display: flex;
+        height: 400px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .loop_wrap img {
+        box-sizing: border-box;
+        width: auto;
+        height: 100%;
+    }
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes loop2 {
+    0% {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+@media screen and (min-width:480px) {
+    .loop_wrap img:first-child {
+        animation: loop 50s -25s linear infinite;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .loop_wrap img:last-child {
+        animation: loop2 50s linear infinite;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .bg-yellow {
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用_エンジニア求人-READMOREボタン*/
+@media screen and (max-width:479px) {
+    .button-2 {
+        margin        : 50px 20px 0 20px;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 2em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .button-2:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+        -webkit-appearance: none;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用_エンジニア求人-READMOREボタン*/
+@media screen and (min-width:480px) {
+    .button-2 {
+        margin        : 50px 0 0 0;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 2em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+        width: 20%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .button-2:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #0093FF;     /* 背景色     */
+        border        : 2px solid #0093FF;    /* 枠の指定 */
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssパートナーエリア*/
+@media screen and (max-width:479px) {
+    .partner-area {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-area h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-image img {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .bg-skyblue-top {
+        width: 65%;
+        height: 300px;
+        background-color: skyblue;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .bg-skyblue-btm {
+        display: none;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssパートナーエリア*/
+@media screen and (min-width:480px) {
+    .partner-area {
+        padding: 150px 50px 250px 100px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-area h2 {
+        font-size: 35px;
+        padding-bottom: 20px;	
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-image img {
+        max-width: 50%;
+        box-sizing: border-box;
+        float: right;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .bg-skyblue-top {
+        width: 35%;
+        height: 430px;
+        background-color: skyblue;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .bg-skyblue-btm {
+        width: 55%;
+        height: 150px;
+        background-color: skyblue;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssお知らせ*/
+@media screen and (min-width:480px) {
+    .news-subtitle {
+        margin: 0 50px 200px 100px;
+        float: left;
+    }
+    
+    .news-subtitle h2 {
+        font-size: 35px;
+    }
+    
+    .news-subtitle p {
+        font-size: 15px;
+    }
+    
+    .news-button {
+        margin        : 30px 0 0 0;
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 27px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #212121;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #212121;    /* 枠の指定 */
+    }
+}
+
+    .news-button:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #212121;     /* 背景色     */
+    }
+    
+    .news-list{
+        list-style: none outside;
+        margin: 0 0 200px 0;
+        width: 90%;
+    }
+
+    .news-list .item a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        text-decoration: none;
+        color: #333;
+        border-bottom: 1px solid #CCC;
+        padding: 20px 20px;
+    }
+    .news-list .item:first-child a{
+        border-top: 1px solid #CCC;
+    }
+    .news-list .item .date{
+        margin: 0;
+        min-width: 140px;
+        font-size: 16px;
+        color: #808080;
+        padding: 0 20px 0 0;
+    }
+    .news-list .item .category{
+        margin: 0;
+        min-width: 140px;
+        padding: 0 20px 0 0;
+    }
+    .news-list .item .category span{
+        background: #387AEA;
+        color: #FFF;
+        text-align: center;
+        display: inline-block;
+        padding: 5px 20px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .news-list .item .title{
+        margin: 0;
+        width: 100%;
+        font-size: 15px;
+    }
+    .news-list .item a:hover .title{
+        color: #00F;
+    }

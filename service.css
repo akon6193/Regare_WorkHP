@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .service-title {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .service-title h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .service-title p {
+        font-size: 20px;
+    }
+}
+
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .service-title {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .service-title h2 {
+        padding: 0 0 20px 0;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .service-title p {
+        padding: 0 0 30px 20px;
+        font-size: 22px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssリガーレの強み*/
+@media screen and (max-width:479px) {
+    .rigare-strong {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .rigare-strong h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .rigare-strong p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .rigare-strong img {
+        width: 100%;
+        padding: 50px 0 10px 0;
+    }
+}
+
+/*---------------------------------------------------*/
+/*PC用cssリガーレの強み*/
+@media screen and (min-width:480px) {
+    .rigare-strong {
+        background-color: #EFEFEF;
+        padding: 100px 0 0 0;
+        
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .rigare-strong h2 {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .rigare-strong p {
+        padding: 40px 0 40px 100px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .rigare-strong img {
+        width: 40%;
+        padding: 0 50px 100px 0;
+        float: right;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用css各サービスアイコン*/
+@media screen and (max-width:479px) {
+    .img-boxs {
+        overflow: hidden;
+        padding: 100px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .img-box {
+        position: relative;
+        width: 30%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .img-box img{
+        max-width: 100%;  /*画像のはみだしを防ぐ*/
+    }
+}
+
+@media screen and (max-width:479px) {
+    .img-box .active {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transition: 0.5s; /*ゆっくり*/
+    }
+}
+
+@media screen and (max-width:479px) {
+    .img-box:hover .active {
+        opacity: 1;
+    }
+}
+
+/*---------------------------------------------------*/
+/*PC用css各サービスアイコン*/
+@media screen and (min-width:480px) {
+    .img-boxs {
+        overflow: hidden;
+        padding: 100px 0;
+        padding-left: 200px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .img-box {
+        position: relative;
+        width: 20%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .img-box img{
+        max-width: 80%;  /*画像のはみだしを防ぐ*/
+    }
+}
+
+@media screen and (min-width:480px) {
+    .img-box .active {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transition: 0.5s; /*ゆっくり*/
+    }
+}
+
+@media screen and (min-width:480px) {
+    .img-box:hover .active {
+        opacity: 1;
+    }
+}

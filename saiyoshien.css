@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .saiyo-title {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-title h4 {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-title p {
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .saiyo-title {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-title h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-title h4 {
+        padding: 0 0 20px 0;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-title p {
+        padding: 0 0 30px 20px;
+        font-size: 22px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX1*/
+@media screen and (max-width:479px) {
+    .saiyo-box1 {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-box1 h2 {
+        color: #93BB00;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-box1 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .jinzai-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .jinzai-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX1*/
+@media screen and (min-width:480px) {
+    .saiyo-box1 {
+        background-color: #EFEFEF;
+        padding: 100px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-box1 h2 {
+        color: #93BB00;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-box1 h2,p {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-box1 p {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .jinzai-image {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .jinzai-image img {
+        margin: 100px 0px 30px 0;
+        max-width: 70%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX2*/
+@media screen and (max-width:479px) {
+    .saiyo-box2 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-box2 h2 {
+        color: #93BB00;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .saiyo-box2 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .shinsotu-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .shinsotu-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX2*/
+@media screen and (min-width:480px) {
+    .saiyo-box2 {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-box2 h2 {
+        color: #93BB00;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-box2 h2,p {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .saiyo-box2 p {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .shinsotu-image {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .shinsotu-image img {
+        margin: 100px 0px 30px 0;
+        max-width: 70%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}

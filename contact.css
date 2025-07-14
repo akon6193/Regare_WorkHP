@@ -1,0 +1,534 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .contact-information {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-information h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-information h3,h4,h5 {
+        padding: 0 0 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-information h4 {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-mail {
+        padding: 30px 15px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-mail p {
+        padding: 0 15px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .contact-information {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contact-information h2 {
+        padding: 0 0 30px 0;
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contact-information h3,h4,h5 {
+        padding: 0 0 0 10px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contact-information h4 {
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contact-mail {
+        padding: 0 90px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contact-mail h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contact-mail p {
+        padding: 0 15px;
+        font-size: 18px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .contact-form {
+        text-align: center;
+        background-color: #FFF8EA;
+        padding: 50px 20px;
+        margin: 0 auto;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    table {
+        width: 100%;
+        line-height: 2.8;
+    }
+}
+
+@media screen and (max-width:479px) {
+    table th {
+        position: relative;
+        text-align: left;
+        width: 100%;
+        vertical-align: top;
+        display: block;
+    }
+}
+
+@media screen and (max-width:479px) {
+    table th span {
+        color: #EB0003;
+    }
+}
+
+@media screen and (max-width:479px) {
+    table td {
+        margin: 0 auto;
+        text-align: left;
+        width: 70%;
+        display: block;
+    }
+}
+/* --- INPUT=TEXTの標準デザイン設定 ---------------------*/
+@media screen and (max-width:479px) {
+    .inText {
+        box-sizing    : border-box;
+        margin        : 0;
+        width         : 100%;                /* 一旦100%幅     */
+        max-width     : 350px;               /* 入力域の最大幅 */
+        height        : 45px;                /* 入力域の高さ   */
+        background    : #ffffff;             /* 入力域の背景色 */
+        border        : 2px solid #3E3E3E;   /* 入力域の枠線   */
+        border-radius : 4px;                 /* 入力域の角丸   */
+        padding       : 0 10px;              /* 入力文字の余白 */
+        font-size     : 14px;                /* 入力文字サイズ */
+        color         : #333333;             /* 入力文字の色   */
+        font-weight   : bold;                /* 入力文字の太字 */
+        letter-spacing: .1em;                /* 入力文字の間隔 */
+    }
+}
+ /* --- 入力フィールドにフォーカスか来たら ----------------*/
+@media screen and (max-width:479px) {
+    .inText:focus {
+        box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+        outline       : 0;
+    }
+}
+ /* --- 入力説明の文字(標準) -----------------------------*/
+@media screen and (max-width:479px) {
+    .inText:placeholder-shown {
+        color         : #808080;                 /* 文字色     */
+        font-size     : 12px;                    /* 少し小さく */
+    }
+}
+ /* --- 入力説明の文字(Chrome,Safari,Android,iOS等) ---- -*/
+@media screen and (max-width:479px) {
+    .inText::-webkit-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+        font-size     : 12px;                    /* 少し小さく */
+    }
+}
+ /* --- 入力説明の文字(IE用) -----------------------------*/
+@media screen and (max-width:479px) {
+    .inText:-ms-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+        font-size     : 12px;                    /* 少し小さく */
+    }
+}
+ /* --- IEの入力エリア右側×消し -------------------------*/
+@media screen and (max-width:479px) {
+    .inText::-ms-clear {
+        display     : none;                      /* ×を消す   */
+    }
+}
+
+@media screen and (max-width:479px) {
+    .textArea {
+        width         : 100%;               /* 入力域の最大幅 */
+        height        : 200px;                /* 入力域の高さ   */
+        background    : #ffffff;             /* 入力域の背景色 */
+        border        : 2px solid #3E3E3E;   /* 入力域の枠線   */
+        border-radius : 4px;                 /* 入力域の角丸   */
+        padding       : 10px;                /* 入力文字の余白 */
+        font-size     : 12px;                /* 入力文字サイズ */
+        color         : #333333;             /* 入力文字の色   */
+        font-weight   : bold;                /* 入力文字の太字 */
+        letter-spacing: .1em;                /* 入力文字の間隔 */
+        line-height   : 13px;                /* 入力文字の間隔 */
+    }
+}
+ /* --- 入力フィールドにフォーカスか来たら ----------------*/
+@media screen and (max-width:479px) {
+    .textArea:focus {
+        box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+        outline       : 0;
+    }
+}
+ /* --- 入力説明の文字(標準) -----------------------------*/
+@media screen and (max-width:479px) {
+    .textArea:placeholder-shown {
+        color         : #808080;                 /* 文字色     */
+    }
+}
+ /* --- 入力説明の文字(Chrome,Safari,Android,iOS等) ---- -*/
+@media screen and (max-width:479px) {
+    .textArea::-webkit-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+    }
+}
+ /* --- 入力説明の文字(IE用) -----------------------------*/
+@media screen and (max-width:479px) {
+    .textArea:-ms-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+    }
+}
+
+@media screen and (max-width:479px) {
+    .button {
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : right;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 30px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #3E3E3E;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 4px 4px 3px #666666;  /* 影の設定 */
+        border        : 2px solid #3E3E3E;    /* 枠の指定 */
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .button:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #3E3E3E;     /* 背景色     */
+        -webkit-appearance: none;
+    }
+}
+
+/*プルダウン*/
+@media screen and (max-width:479px) {
+    .cp_ipselect {
+        overflow: hidden;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .cp_ipselect select {
+        width: 100%;
+        padding-right: 1em;
+        cursor: pointer;
+        text-indent: 0.01px;
+        text-overflow: ellipsis;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-image: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .cp_ipselect select::-ms-expand {
+        display: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .cp_ipselect.cp_sl01 {
+        position: relative;
+        border: 2px solid #3E3E3E;
+        border-radius: 5px;
+        background: #ffffff;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .cp_ipselect.cp_sl01::before {
+        position: absolute;
+        top: 1.4em;
+        right: 0.9em;
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: '';
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #3E3E3E;
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .cp_ipselect.cp_sl01 select {
+        color: #333333;
+    }
+}
+
+
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .contact-form {
+        text-align: center;
+        background-color: #FFF8EA;
+        padding: 50px 50px 100px 50px;
+        margin: 0 auto;
+        margin-bottom: 150px;
+        width: 750px;
+    }
+}
+@media screen and (min-width:480px) {
+    table {
+        width: 100%;
+        line-height: 5.0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    table th {
+        position: relative;
+        text-align: left;
+        padding-left: 30px;
+        width: 30%;
+        vertical-align: top;
+    }
+}
+
+@media screen and (min-width:480px) {
+    table th span {
+        color: #EB0003;
+    }
+}
+
+@media screen and (min-width:480px) {
+    table td {
+        padding-left: 100px;
+        text-align: left;
+        width: 70%;
+    }
+}
+/* --- INPUT=TEXTの標準デザイン設定 ---------------------*/
+@media screen and (min-width:480px) {
+    .inText {
+        box-sizing    : border-box;
+        margin        : 0;
+        width         : 100%;                /* 一旦100%幅     */
+        max-width     : 350px;               /* 入力域の最大幅 */
+        height        : 45px;                /* 入力域の高さ   */
+        background    : #ffffff;             /* 入力域の背景色 */
+        border        : 2px solid #3E3E3E;   /* 入力域の枠線   */
+        border-radius : 4px;                 /* 入力域の角丸   */
+        padding       : 0 10px;              /* 入力文字の余白 */
+        font-size     : 14px;                /* 入力文字サイズ */
+        color         : #333333;             /* 入力文字の色   */
+        font-weight   : bold;                /* 入力文字の太字 */
+        letter-spacing: .1em;                /* 入力文字の間隔 */
+    }
+}
+ /* --- 入力フィールドにフォーカスか来たら ----------------*/
+@media screen and (min-width:480px) {
+    .inText:focus {
+        box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+        outline       : 0;
+    }
+}
+ /* --- 入力説明の文字(標準) -----------------------------*/
+@media screen and (min-width:480px) {
+    .inText:placeholder-shown {
+        color         : #808080;                 /* 文字色     */
+        font-size     : 12px;                    /* 少し小さく */
+    }
+}
+ /* --- 入力説明の文字(Chrome,Safari,Android,iOS等) ---- -*/
+@media screen and (min-width:480px) {
+    .inText::-webkit-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+        font-size     : 12px;                    /* 少し小さく */
+    }
+}
+ /* --- 入力説明の文字(IE用) -----------------------------*/
+@media screen and (min-width:480px) {
+    .inText:-ms-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+        font-size     : 12px;                    /* 少し小さく */
+    }
+}
+ /* --- IEの入力エリア右側×消し -------------------------*/
+@media screen and (min-width:480px) {
+    .inText::-ms-clear {
+        display     : none;                      /* ×を消す   */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .textArea {
+        width         : 325px;               /* 入力域の最大幅 */
+        height        : 200px;                /* 入力域の高さ   */
+        background    : #ffffff;             /* 入力域の背景色 */
+        border        : 2px solid #3E3E3E;   /* 入力域の枠線   */
+        border-radius : 4px;                 /* 入力域の角丸   */
+        padding       : 10px;                /* 入力文字の余白 */
+        font-size     : 12px;                /* 入力文字サイズ */
+        color         : #333333;             /* 入力文字の色   */
+        font-weight   : bold;                /* 入力文字の太字 */
+        letter-spacing: .1em;                /* 入力文字の間隔 */
+        line-height   : 13px;                /* 入力文字の間隔 */
+    }
+}
+ /* --- 入力フィールドにフォーカスか来たら ----------------*/
+@media screen and (min-width:480px) {
+    .textArea:focus {
+        box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+        outline       : 0;
+    }
+}
+ /* --- 入力説明の文字(標準) -----------------------------*/
+@media screen and (min-width:480px) {
+    .textArea:placeholder-shown {
+        color         : #808080;                 /* 文字色     */
+    }
+}
+ /* --- 入力説明の文字(Chrome,Safari,Android,iOS等) ---- -*/
+@media screen and (min-width:480px) {
+    .textArea::-webkit-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+    }
+}
+ /* --- 入力説明の文字(IE用) -----------------------------*/
+@media screen and (min-width:480px) {
+    .textArea:-ms-input-placeholder {
+        color         : #808080;                 /* 文字色     */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .button {
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : right;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 30px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #3E3E3E;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 4px 4px 3px #666666;  /* 影の設定 */
+        border        : 2px solid #3E3E3E;    /* 枠の指定 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .button:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        color         : #ffffff;     /* 文字色     */
+        background    : #3E3E3E;     /* 背景色     */
+    }
+}
+
+/*プルダウン*/
+@media screen and (min-width:480px) {
+    .cp_ipselect {
+        overflow: hidden;
+        width: 83%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .cp_ipselect select {
+        width: 100%;
+        padding-right: 1em;
+        cursor: pointer;
+        text-indent: 0.01px;
+        text-overflow: ellipsis;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-image: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .cp_ipselect select::-ms-expand {
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .cp_ipselect.cp_sl01 {
+        position: relative;
+        border: 2px solid #3E3E3E;
+        border-radius: 5px;
+        background: #ffffff;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .cp_ipselect.cp_sl01::before {
+        position: absolute;
+        top: 2.5em;
+        right: 0.9em;
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: '';
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #3E3E3E;
+        pointer-events: none;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .cp_ipselect.cp_sl01 select {
+        color: #333333;
+    }
+}

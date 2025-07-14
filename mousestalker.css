@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+.mouse {
+	background: black;
+	border-radius: 50%;
+	position: fixed;
+	z-index: 100;
+	pointer-events: none;
+	transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
+}

@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .recruit-title {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-title h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-title-title p {
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .recruit-title {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-title h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-title-title p {
+        padding: 0 0 30px 20px;
+        font-size: 22px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX1*/
+@media screen and (max-width:479px) {
+    .recruit-box1 {
+        padding: 50px 20px;
+        background-color: #EFEFEF;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box1 h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box1 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image1 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image1 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX1*/
+@media screen and (min-width:480px) {
+    .recruit-box1 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-box1 p {
+        padding: 50px 0 30px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image1 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image1 img {
+        max-width: 70%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX2*/
+@media screen and (max-width:479px) {
+    .recruit-box2 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box2 h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box2 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image2 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image2 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX2*/
+@media screen and (min-width:480px) {
+    .recruit-box2 {
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-box2 p {
+        padding: 50px 100px 30px 20px;
+        float: left;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image2 {
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image2 img {
+        max-width: 40%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX3*/
+@media screen and (max-width:479px) {
+    .recruit-box3 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box3 h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box3 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image3 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image3 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX3*/
+@media screen and (min-width:480px) {
+    .recruit-box3 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-box3 p {
+        padding: 50px 0 30px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image3 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image3 img {
+        max-width: 70%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX4*/
+@media screen and (max-width:479px) {
+    .recruit-box4 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box4 h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-box4 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image4 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .recruit-image4 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX4*/
+@media screen and (min-width:480px) {
+    .recruit-box4 {
+        padding: 100px 100px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-box4 p {
+        padding: 50px 130px 30px 20px;
+        float: left;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image4 {
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-image4 img {
+        max-width: 40%;
+        box-sizing: border-box;
+        float: left;
+    }
+}

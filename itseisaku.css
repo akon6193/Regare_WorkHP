@@ -1,0 +1,448 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .it-title {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .it-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .it-title h4 {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .it-title p {
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .it-title {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .it-title h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .it-title h4 {
+        padding: 0 0 20px 0;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .it-title p {
+        padding: 0 0 30px 20px;
+        font-size: 22px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssシステムインテグレーションサービス*/
+@media screen and (max-width:479px) {
+    .si-container {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .si-container h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .si-container p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .si-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .si-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssシステムインテグレーションサービス*/
+@media screen and (min-width:480px) {
+    .si-container {
+        background-color: #EFEFEF;
+        padding: 100px 100px 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .si-container h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .si-container p {
+        padding: 20px 0 30px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .si-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用css受託開発*/
+@media screen and (max-width:479px) {
+    .contract-container {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contract-container h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contract-container p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .jyutaku-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .jyutaku-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用css受託開発*/
+@media screen and (min-width:480px) {
+    .contract-container {
+        padding: 100px 100px 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contract-container h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contract-container p {
+        padding: 20px 0 30px 20px;
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .jyutaku-image {
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .jyutaku-image img {
+        max-width: 45%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssWEB製作サービス*/
+@media screen and (max-width:479px) {
+    .web-container {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-container h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-container p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-box1 {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-box1-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-box1-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-box2 {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-box2-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .web-box2-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssWEB製作サービス*/
+@media screen and (min-width:480px) {
+    .web-container {
+        background-color: #EFEFEF;
+        padding: 100px 100px 500px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-container h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-container p {
+        padding: 20px 0 30px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-box1 {
+        width: 50%;
+        float: right;
+        padding: 50px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-box1-image {
+        width: 50%;
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-box1-image img {
+        max-width: 80%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-box2 {
+        width: 50%;
+        float: left;
+        padding: 50px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-box2-image {
+        width: 50%;
+        float: left;
+        padding: 50px 0 50px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .web-box2-image img {
+        max-width: 80%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssIT製作事業部の特徴*/
+@media screen and (max-width:479px) {
+    .itseisaku-container {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-container h2 {
+        color: #2F536C;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-container h4 {
+        padding: 40px 0 15px 0; 
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-container p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-image1 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-image2 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-image3 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-image4 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .itseisaku-image5 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssIT製作事業部の特徴*/
+@media screen and (min-width:480px) {
+    .itseisaku-container {
+        padding: 100px 100px 200px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-container h2 {
+        color: #2F536C;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-container h4 {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-container p {
+        padding: 20px 0 70px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-image1 {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-image1 img {
+        max-width: 80%;
+        box-sizing: border-box;
+        padding: 10px 30px 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-image2 img {
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 10px 0 50px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-image3 img {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-image4 img {
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 10px 0 0 0;
+        float: right;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .itseisaku-image5 img {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px 20px 0 20px;
+    }
+}

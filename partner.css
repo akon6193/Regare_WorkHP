@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .partner-title {
+        padding: 150px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-title h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-title p {
+        font-size: 20px;
+    }
+}
+
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .partner-title {
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-title h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-title p {
+        padding: 0 0 30px 20px;
+        font-size: 22px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX*/
+@media screen and (max-width:479px) {
+    .partner-box1 {
+        padding: 50px 20px;
+        background-color: #EFEFEF;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-box1 h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-box1 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+    
+@media screen and (max-width:479px) {
+    .partner-box2 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-box2 h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-box2 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+/*---------------------------------------------------*/
+/*PC用cssBOX*/
+@media screen and (min-width:480px) {
+    .partner-box1 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-box1 p {
+        padding: 50px 0 30px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-box2 {
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-box2 p {
+        padding: 50px 0 30px 20px;
+    }
+}
+
+/*---------------------------------------------------*/
+/*スマホ用css画像*/
+@media screen and (max-width:479px) {
+    .partner-image2 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .partner-image2 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/*---------------------------------------------------*/
+/*PC用css画像*/
+@media screen and (min-width:480px) {
+    .partner-image2 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+    
+@media screen and (min-width:480px) {
+    .partner-image2 img {
+        max-width: 70%;
+        box-sizing: border-box;
+    }
+}
